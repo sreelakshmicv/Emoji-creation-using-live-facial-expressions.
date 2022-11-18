@@ -31,6 +31,21 @@ The FER2013 dataset ( facial expression recognition) consists of 48*48 pixel gra
 
 6:natural
 
+# TOOLKIT
+
+Build a convolution neural network(CNN) architecture and feed the FER2013 dataset to the model so that it can recognize emotion from images. We build the CNN model using the Keras layers in various steps. You can see each layer in the below diagram.
+
+![image](https://user-images.githubusercontent.com/98879587/202766674-8839ed9e-c106-40c6-9eb3-0eed5717aeb4.png)
+
+To build the network we use two dense layers, one flatten layer and four conv2D layers. We are going to use the Softmax equation to generate the model output.
+
+To detect the bounding box of images in the webcam we use the OpenCV’s Haarcascade XML. In the end, we serve these boxes to the trained model for the purpose of classification.
+
+# WORKING PRINCIPLE
+
+The process of FER has three stages. The preprocessing stage consists of preparing the dataset into a form which will work on a generalized algorithm and generate efficient results. In the face detection stage, the face is detected from the images that are captured real time. The emotion classification step consists of implementing the CNN algorithm to classify input image into one of seven classes.
+
+
 # TOOLS AND LIBRARIES
 
 . Python – 3.x
@@ -66,6 +81,8 @@ Intel(R) Core(TM) i3-7020U CPU @ 2.30GHz 2.30 GHz
 #FURTHER MODIFICATION
 
 In future you can modify the user interface by creating emojis for both the real time facial emotions as well as the Video/Photo which is already recorded(By uploading those video/photo in the ui and convert to emojis).
+
+We can also try to implement this in keyboards that we use for easier and quicker access of this facial expression detection and emoji generation. We can also try to display a customized emoji of the person’s face.
 
 # AUTHOR
 
