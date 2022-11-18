@@ -45,6 +45,10 @@ To detect the bounding box of images in the webcam we use the OpenCV’s Haarcas
 
 The process of FER has three stages. The preprocessing stage consists of preparing the dataset into a form which will work on a generalized algorithm and generate efficient results. In the face detection stage, the face is detected from the images that are captured real time. The emotion classification step consists of implementing the CNN algorithm to classify input image into one of seven classes.
 
+# RESULT
+
+![Uploading Screenshot (428).png…]()
+
 
 # TOOLS AND LIBRARIES
 
