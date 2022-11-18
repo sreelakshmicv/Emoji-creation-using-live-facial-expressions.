@@ -47,7 +47,7 @@ The process of FER has three stages. The preprocessing stage consists of prepari
 
 # RESULT
 
-![Uploading Screenshot (428).png…]()
+![Screenshot (428)](https://user-images.githubusercontent.com/98879587/202768359-781be9d3-2d36-46da-b275-fe473159dd19.png)
 
 
 # TOOLS AND LIBRARIES
