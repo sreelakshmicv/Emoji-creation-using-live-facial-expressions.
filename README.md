@@ -49,6 +49,12 @@ pip install numpy pandas tensorflow emoji
 
 # INSTALLATION
 
+To run this code in your local system you have to download this repository using- Git clone
+
+https://github.com/sreelakshmicv/Emoji-creation-using-live-facial-expressions.
+
+Now open the required directories and install python packages required for run the code.Then run the code.
+
 # TRAINING AND EVALUATION
 
 I have used my local system to run this model.
